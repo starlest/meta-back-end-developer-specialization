@@ -67,7 +67,7 @@ def summarize_order(order):
     ### WRITE SOLUTION HERE
     total = calculate_subtotal(order) + calculate_tax(calculate_subtotal(order))
     names = [item["name"] for item in order]
-    return names, total
+    return names, round(total, 2)
 
 # This function is provided for you, and will print out the items in an order
 def print_order(order):
