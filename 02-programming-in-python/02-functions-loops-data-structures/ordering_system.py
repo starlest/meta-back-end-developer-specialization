@@ -44,7 +44,7 @@ def calculate_tax(subtotal):
     """
     print('Calculating tax from subtotal...')
     ### WRITE SOLUTION HERE
-    return subtotal * 0.15
+    return round(subtotal * 0.15, 2)
 
 def summarize_order(order):
     """ Summarizes the order
