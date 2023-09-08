@@ -101,7 +101,7 @@ def read_file_in_reverse(file_name):
     Returns:
         list: list of the lines of the file in reverse order.
     """
-    ### WRITE SOLUTION HERE
+    ### WRITE SOLUTION HEREw
     reversed_list = []
     with open(file_name) as file:
         for line in reversed(list(file)):
